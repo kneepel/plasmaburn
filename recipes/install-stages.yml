@@ -1,0 +1,5 @@
+modules:
+  - type: copy
+    from: starship
+    src: /out/starship
+    dest: /usr/bin/

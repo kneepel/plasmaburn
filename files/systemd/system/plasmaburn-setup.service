@@ -1,0 +1,12 @@
+[Unit]
+Description=Check and set kargs & hostname on boot
+After=rpm-ostreed.service tuned.service
+Before=systemd-user-sessions.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/bin/bash /usr/libexec/plasmaburn-setup
+
+[Install]
+WantedBy=multi-user.target

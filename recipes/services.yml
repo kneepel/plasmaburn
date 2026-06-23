@@ -1,0 +1,6 @@
+type: systemd
+system:
+  enabled:
+    - plasmaburn-setup.service
+    - libvirtd.service
+ 

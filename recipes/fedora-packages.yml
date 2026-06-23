@@ -1,0 +1,30 @@
+type: dnf
+repos:
+  nonfree: rpmfusion
+  files:
+    remove:
+      - rpmfusion-free-rawhide
+      - rpmfusion-nonfree-rawhide
+install:
+  #bitwarden 
+    - https://bitwarden.com/download/?app=desktop&platform=linux&variant=rpm
+  #GUI utils
+    - easyeffects
+  #terminal utils
+    - btop
+    - nvtop
+    - inxi
+    - micro
+  #libraries
+    - steam-devices
+  #toolbox replacement
+    - distrobox
+  #plasma specific
+    - kvantum
+  #codecs
+    - mesa-va-drivers-freeworld
+group-install:
+  with-optional: false
+  packages:
+    - virtualization
+    - multimedia
