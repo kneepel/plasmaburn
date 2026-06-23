@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+
 type: dnf
 repos:
   nonfree: rpmfusion
@@ -6,6 +8,7 @@ repos:
       - rpmfusion-free-rawhide
       - rpmfusion-nonfree-rawhide
 install:
+  packages:
   #bitwarden 
     - https://bitwarden.com/download/?app=desktop&platform=linux&variant=rpm
   #GUI utils
