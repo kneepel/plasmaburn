@@ -1,0 +1,4 @@
+type: files
+files:
+  - source: system/usr/libexec # hyprpain setup
+    destination: /usr/libexec

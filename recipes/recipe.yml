@@ -19,6 +19,5 @@ modules:
   - from-file: install-stages.yml
   - from-file: remove-deps.yml
   - from-file: files.yml
-  - from-file: permissions.yml
   - from-file: services.yml
   - type: signing
