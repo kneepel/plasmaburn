@@ -20,6 +20,7 @@ install:
     - micro
   #libraries
     - steam-devices
+    - ffmpegthumbnailer
   #toolbox replacement
     - distrobox
   #plasma specific
@@ -27,7 +28,7 @@ install:
   #codecs
     - mesa-va-drivers-freeworld
 group-install:
-  with-optional: true
+  with-optional: false
   packages:
     - virtualization
     - multimedia
