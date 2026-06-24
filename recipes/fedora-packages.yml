@@ -26,9 +26,8 @@ install:
     - kvantum
   #codecs
     - mesa-va-drivers-freeworld
-    - ffmpeg-libs 
 group-install:
-  with-optional: false
+  with-optional: true
   packages:
     - virtualization
     - multimedia
