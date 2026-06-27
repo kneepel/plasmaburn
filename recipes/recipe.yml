@@ -16,7 +16,8 @@ stages:
 modules:
   - from-file: fedora-packages.yml 
   - from-file: copr-lact.yml
-  - from-file: copr-errornointernet.yml
+  - from-file: copr-klassy.yml
+  - from-file: obs-panelcolorizer.yml
   - from-file: install-stages.yml
   - from-file: remove-deps.yml
   - from-file: files.yml
