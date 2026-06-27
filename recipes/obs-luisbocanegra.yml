@@ -1,0 +1,7 @@
+type: dnf
+repos:
+  files:
+    - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_44/home:luisbocanegra.repo
+install:
+  packages:
+    - plasma-panel-colorizer
